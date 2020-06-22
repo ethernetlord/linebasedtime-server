@@ -1,0 +1,20 @@
+[Unit]
+Description=LineBasedTime Server
+After=network.target
+
+[Service]
+Type=simple
+PrivateUsers=true
+ProtectSystem=full
+ProtectHome=true
+ProtectControlGroups=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+WorkingDirectory=/
+User=nobody
+Group=nogroup
+ExecStart=/usr/local/bin/lbtimed :: 5567
+ExecStop=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
