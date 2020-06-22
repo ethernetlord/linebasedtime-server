@@ -1,7 +1,7 @@
 # LineBasedTime Server
-A simple protocol & its reference server implementation used to fetch time information from the machine, where the server is running, by remote clients. The client implementation can be found [here](/ethernetlord/linebasedtime-client/).
+A simple protocol & its reference server implementation used to fetch time information from the machine, where the server is running, by remote clients. The client implementation can be found [here](https://github.com/ethernetlord/linebasedtime-client).
 
-The documentation of the LineBasedTime protocol can be found in [this repository](/ethernetlord/linebasedtime-protocol/).
+The documentation of the LineBasedTime protocol can be found in [this repository](https://github.com/ethernetlord/linebasedtime-protocol).
 
 ---
 
@@ -77,7 +77,7 @@ Made by **EthernetLord**.
 
 
 ## Licensing
-This project is licensed under the **[MIT License](/ethernetlord/linebasedtime-server/blob/master/LICENSE)**.
+This project is licensed under the **[MIT License](LICENSE)**.
 
 
 ## Contributing
